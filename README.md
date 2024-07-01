@@ -1,10 +1,35 @@
-##Student-Grade-Generator
-First will create an interface to call the function that outputs and inputs the students grade which is "const  read_line =require('readline')"
-Then we return the stream using const readline = read_line.createInterface
-    input: process.stdin,
-    output : process.stdout
-Then we display the output question by writting :
-function studentGrade()
-    readline.question"Hi students,please enter your mark(0-100)",(marks)=>
-        if(marks<0 || marks>=100) it should output the statement " Sorry! Invalid input.Please enter a number between 0 and 100"
-Use else....else if syntax to do the student grading
+# Student-Grade-Generation
+
+## Description
+This is a grading system using functions in javascript to display the students grades.
+
+## Installation
+To set up the Student-Grade-System on your local machine,you need to install node.js then git clone your repository.
+
+## Usage
+1.Add the readline module that interface with the data from a readable source.
+2.Add the function that calls back the readline question to the marks.
+3.Use if...else if to output the students grades
+
+## Author
+Ombeyi Brenda.
+
+# Speed-Detector
+
+## Descrption
+This a speed detector detecting vehicles speed using javascript function.
+
+## Installation
+To set up the Speed-Detector on your local machine,you need to install node.js then git clone your repository.
+
+## Usage
+1.Add the readline module that interface with the data from a readable source.
+2.Add the function that calls back the readline question to the inputSpeed.
+3.Use if...else if to output the speed demerit points.
+4.Then console to check speed.
+
+## Author
+Ombeyi Brenda.
+
+
+
