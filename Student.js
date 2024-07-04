@@ -5,18 +5,11 @@
 // E = less 40
 //let marks =72
 //console.log("Hello Brenda")
-const read_line =require('readline')
 
-const readline = read_line.createInterface({
-    input: process.stdin,
-    output : process.stdout
-})
-function studentGrade(){
-    readline.question("Hi students,please enter your mark(0-100)",(marks)=>{
-        if(marks<0 || marks>=100) {
-            console.log('Sorry! Invalid input.Please enter a number between 0 and 100')
-        }
-        else if(marks <= 100 && marks >= 79) {
+const prompt =require('prompt-sync');
+let marks = prompt("insert your marks")
+function studentGrade(marks){
+         if(marks <= 100 && marks >= 79) {
             console.log('You Got A'); 
           } else if(marks < 79 && marks >= 60)
               console.log('You Got B'); 
@@ -28,12 +21,12 @@ function studentGrade(){
           else {
               console.log ('Out of Range')
           }
-          readline.close()
-    })
-   
-}
+        }
+        studentGrade(72)
+    
 
-studentGrade()
+
+
 
 
 
