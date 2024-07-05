@@ -4,7 +4,7 @@
 // console.log("licence suspended") 
 const prompt =require('prompt-sync')()
 const limit = 70;
-let speed= Number(prompt("Enter Vehicle Speed"))
+let speed= Number(prompt("Enter Vehicle Speed"));
 function pointCalculator(speed){
     if(isNaN(speed) || speed <=0){
         console.log('Invalid');

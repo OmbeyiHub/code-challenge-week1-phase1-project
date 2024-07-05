@@ -7,7 +7,7 @@
 //console.log("Hello Brenda")
 
 const prompt =require('prompt-sync');
-let marks = prompt("insert your marks")
+let marks = prompt("insert your marks");
 function studentGrade(marks){
          if(marks <= 100 && marks >= 79) {
             console.log('You Got A'); 
