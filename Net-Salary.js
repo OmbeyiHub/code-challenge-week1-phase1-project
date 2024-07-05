@@ -1,6 +1,5 @@
 
 const prompt =require('prompt-sync')()
-let net_Pay= gross(prompt("Enter pay"))
 function nssf(gross_income){
     if(gross_income <= 7000){
         return 420;
@@ -25,7 +24,7 @@ function paye(total_taxable_amount) {
     }
     
 }
-let NTA =TTA - PAYE (TTA)
+let NTA =TTA - PAYE (TTA);
 let nhif = gross_salary =0.0275
 let housing_levy =gross_salary * 0.015
 let Net_Pay =NTA - (nhif + housing_levy)
